@@ -1,0 +1,69 @@
+// Define a list of people to invite to dinner
+const guestList = ["GHAFIRA","NOROSE","ISMAIL"];
+  
+  // Print invitation messages to each person
+  const invitation =`DEAR ${guestList[0]}, 
+  You are invited to dinner at my place.\n`
+
+  const invitation2=`DEAR ${guestList[1]}, 
+  You are invited to dinner at my place.]\n`
+
+  const invitation3 =`DEAR ${guestList[2]}, 
+  You are invited to dinner at my place. \n`
+
+console.log(invitation,invitation2,invitation3);
+console.log("***ISMAIL CANNOT COME TO DINNER***\n");
+
+//removing ismail from list
+guestList.pop();
+
+//adding a new guest to the list 
+guestList.push("LAIBA")
+
+ // Printing new invitation messages to each person
+ const invitation4 =`DEAR ${guestList[0]}, 
+ You are invited to dinner at my place.\n`
+
+ const invitation5=`DEAR ${guestList[1]}, 
+ You are invited to dinner at my place.]\n`
+
+ const invitation6 =`DEAR ${guestList[2]}, 
+ You are invited to dinner at my place. \n`
+
+ console.log(invitation4,invitation5,invitation6)
+
+ console.log("****BIGGER DINNER!  3 MORE SPACES AVAILABLE****\n")
+ 
+ //adding new guest at start of list 
+ guestList.unshift("SAIF");
+ //adding at middle 
+ guestList.splice(2,0,"HASHIR")
+ //adding at last 
+ guestList.push("LARAIB")
+ 
+ // Printing new invitation messages to each person
+ const invitation7 =`DEAR ${guestList[0]}, 
+ You are invited to dinner at my place.\n`
+
+ const invitation8=`DEAR ${guestList[1]}, 
+ You are invited to dinner at my place.]\n`
+
+ const invitation9 =`DEAR ${guestList[2]}, 
+ You are invited to dinner at my place. \n`
+ // Printing new invitation messages to each person
+ const invitation10=`DEAR ${guestList[3]}, 
+ You are invited to dinner at my place.\n`
+
+ const invitation11=`DEAR ${guestList[4]}, 
+ You are invited to dinner at my place.]\n`
+
+ const invitation12 =`DEAR ${guestList[5]}, 
+ You are invited to dinner at my place. \n`
+
+ console.log(invitation7,invitation8,invitation9,invitation10,invitation11,invitation12)
+
+
+
+
+
+  
