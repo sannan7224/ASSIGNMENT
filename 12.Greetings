@@ -1,0 +1,6 @@
+let friendsName =["Norose", "Laiba","Saif","Ghafira"]
+let  message :string ="HELLO FROM ";
+console.log(message,friendsName[0]);
+console.log(message,friendsName[2]);
+console.log(message,friendsName[3]);
+console.log(message,friendsName[1]);
