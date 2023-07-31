@@ -1,0 +1,6 @@
+let favoriteTransportation =["honda cbr 150", "beneulli 600c","yamaha R1","suzuki 150"]
+let  message :string =" I would like to ride ";
+console.log(message,favoriteTransportation[0]);
+console.log(message,favoriteTransportation[2]);
+console.log(message,favoriteTransportation[3]);
+console.log(message,favoriteTransportation[1]);
