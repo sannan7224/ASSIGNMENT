@@ -1,0 +1,12 @@
+// Store the person's name in a variable
+var personName :string = "Muhammad Sannan";
+
+// Print the name in lowercase
+console.log("Lowercase:", personName.toLowerCase());
+
+// Print the name in uppercase
+console.log("Uppercase:", personName.toUpperCase());
+
+// Print the name in titlecase
+console.log("Titlecase:", personName)
+
