@@ -1,0 +1,17 @@
+// Define a list of people to invite to dinner
+const guestList = ["GHAFIRA","NOROSE","ISMAIL"];
+  
+  // Print invitation messages to each person
+  const invitation =`DEAR ${guestList[0]}, 
+  You are invited to dinner at my place.\n`
+  const invitation2=`DEAR ${guestList[1]}, 
+  You are invited to dinner at my place.]\n`
+
+  const invitation3 =`DEAR ${guestList[2]}, 
+  You are invited to dinner at my place. \n`
+
+
+
+    console.log(invitation,invitation2,invitation3);
+
+  
