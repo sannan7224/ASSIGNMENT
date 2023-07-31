@@ -1,0 +1,5 @@
+// storing name in variable 
+var personName :string = "USMAN";
+
+//printing a message on screen
+console.log(` Hello ${personName}, would you like to learn some Type-Script today?`)
