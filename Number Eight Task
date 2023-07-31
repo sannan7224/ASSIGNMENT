@@ -1,0 +1,4 @@
+console.log(5 + 3) //additon 
+console.log(12 - 4) //subtraction
+console.log(2 * 4)  //multiplication
+console.log(64 / 8) //division
