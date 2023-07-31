@@ -1,0 +1,11 @@
+// Store the person's name with whitespace characters
+const personNameWithWhitespace: string = "\t\nMUHAMMAD SANNAN\t\n   ";
+
+// Print the name with whitespace included
+console.log("Name with whitespace:");
+console.log(personNameWithWhitespace);
+
+// Print the name after stripping whitespace
+const strippedName: string = "MUHAMMAD SANNAN";
+console.log("\nName after stripping whitespace:");
+console.log(strippedName)
