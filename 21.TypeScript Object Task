@@ -1,0 +1,23 @@
+//creating an interface of typescript
+interface car {
+  company:string;
+  year :number;
+  color :string;
+}
+
+//defining an array
+let cars:car[]=[
+  { company: "Toyota COROLLA", year: 2022, color: "Silver" },
+  { company: "Honda CIVIC",  year: 2018, color: "White" },
+  { company: "Changan OSHAN X7",  year: 2023, color: "Black" },
+]
+// Print information about each car
+console.log("List of CARS:")
+for(const car of cars)
+{
+  console.log(`COMPANY: ${car.company}`);
+  console.log(`MODEL: ${car.year}`);
+  console.log(`COLOR: ${car.color}`);
+  console.log("*******************")
+}
+
