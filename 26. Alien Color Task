@@ -1,0 +1,13 @@
+// when color is green 5 points will be given
+var alienColor = 'red ';
+//give any color input,u'll get 10 pints
+//var alienColor =''
+if(alienColor=='green')
+{
+  console.log("U have won 5 Points")
+}
+//if not green then 10 points would be given 
+else if (alienColor!= 'green')
+{
+  console.log("U have won 10 points!!")
+}
