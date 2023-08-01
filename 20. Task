@@ -1,0 +1,6 @@
+//creaing an array of shoes types 
+const shoes=["Wing-tip Shoes","Monk Shoes","Chelsea Shoes","Loafer Shoes","Oxford Shoes"];
+
+//printing the list 
+console.log("Types of Shoes:");
+console.log(shoes);
