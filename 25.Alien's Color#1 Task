@@ -1,0 +1,15 @@
+// when color is green 5 points will be given
+var alienColor = 'green';
+if(alienColor=='green')
+{
+  console.log("U have won 5 Points")
+}
+
+// when the color is else, there would be no output
+// u can check by removing this code as comment 
+
+// var alienColor = 'red ';
+// if(alienColor=='green')
+// {
+//   console.log("U have won 5 Points")
+// }
