@@ -1,0 +1,15 @@
+let placesTovisit0=["kashmir","hunza","gilgit","neelum valley","taubat"];
+let placesTovisit=["kashmir","hunza","gilgit","neelum valley","taubat"];
+console.log(`orginal array:\n \t${placesTovisit}\n`);
+
+let sortedPlace=placesTovisit.sort();
+console.log(`sorted array: \n\t${sortedPlace}\n`);
+
+
+let reversePlaces= placesTovisit.reverse();
+console.log(`reversed array: \n\t${reversePlaces}\n`);
+
+console.log(`orginal array:(unchanged) \n\t${placesTovisit0}\n`);
+
+let reverseAgain = reversePlaces.reverse();
+console.log(`again reversing array:\n\t ${reverseAgain}\n`);
