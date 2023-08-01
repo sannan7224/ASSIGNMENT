@@ -1,0 +1,51 @@
+//tests for equality and unequality with string 
+let Name  = 'ali';
+console.log("is name = Ali (predict:TRUE)")
+console.log(Name =="ali")
+
+console.log("is name != umer (predict:TRUE)")
+console.log(Name !="umer")
+
+//Tests using the lower case function
+let name1= "SANNAN";
+console.log("is name.lowercase == sannan (predict:TRUE)")
+console.log(name1.toLowerCase() =="sannan")
+
+// Numerical tests
+let age = 30;
+console.log("Is age == 30? I predict True.");
+console.log(age == 30);
+
+console.log("Is age != 25? I predict True.");
+console.log(age != 25);
+
+console.log("Is age > 18? I predict True.");
+console.log(age > 18);
+
+console.log("Is age < 40? I predict True.");
+console.log(age < 40);
+
+console.log("Is age >= 30? I predict True.");
+console.log(age >= 30);
+
+console.log("Is age <= 35? I predict True.");
+console.log(age <= 35);
+
+// Tests using "and" and "or" operators
+let temperature = 25;
+let isRaining = false;
+
+console.log("Is temperature > 20 and isRaining == false? I predict True.");
+console.log(temperature > 20 && isRaining == false);
+
+console.log("Is temperature < 20 or isRaining == true? I predict true.");
+console.log(temperature < 20 || isRaining == false)
+
+//creaing an array of shoes types 
+const shoes=["Wing-tip Shoes","Monk Shoes","Chelsea Shoes","Loafer Shoes","Oxford Shoes"];
+
+//Test whether an item is in a array
+console.log(shoes.includes("Loafer Shoes"));
+
+// Test whether an item is not in a array
+console.log(!shoes.includes('boots'));
